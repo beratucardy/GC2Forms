@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="ad">Adı</label></td>
+          <td colspan="2"><input type="text" id="ad" /></td>
+          <td rowspan="3"><label for="hobi">Hobiler</label></td>
+          <td><input type="checkbox" id="hobi" />Futbol</td>
+        </tr>
+        <tr>
+          <td><label for="soyAd">Soyadı</label></td>
+          <td colspan="2"><input type="text" id="soyAd" /></td>
+          <td><input type="checkbox" id="hobi" />Voleybol</td>
+        </tr>
+        <tr>
+          <td><label for="cinsiyet">Cinsiyet</label></td>
+          <td><input type="radio" id="cinsiyet" name="cinsiyet" />Bay</td>
+          <td><input type="radio" id="cinsiyet" name="cinsiyet" />Bayan</td>
+          <td><input type="checkbox" id="hobi" />Basketbol</td>
+        </tr>
+        <tr>
+          <td><label for="ilce">İlçe</label></td>
+          <td colspan="2">
+            <select id="ilce">
+              <option value="">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </option>
+            </select>
+          </td>
+          <td>
+            <label for="foto">Profil <br />Fotoğrafı</label>
+          </td>
+          <td><input type="file" id="foto" /></td>
+        </tr>
+        <tr>
+          <td><label for="mail">Eposta</label></td>
+          <td colspan="2"><input type="email" id="mail" /></td>
+          <td>
+            <label for="tarih">Doğum <br />Tarihi</label>
+          </td>
+          <td><input type="text" id="tarih" /></td>
+        </tr>
+        <tr>
+          <td><label for="site">Kişisel Site</label></td>
+          <td colspan="2"><input type="text" id="site" /></td>
+          <td rowspan="2"><label for="adres">Adres</label></td>
+          <td rowspan="2">
+            <textarea name="" id="adres" cols="30" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tel">Telefon</label></td>
+          <td colspan="2"><input type="tel" id="tel" /></td>
+        </tr>
+        <tr>
+          <td colspan="4"></td>
+          <td colspan=""><input type="submit" value="Kayıt ol" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
